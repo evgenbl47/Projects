@@ -4,15 +4,20 @@ using namespace std;
 main(){
   setlocale(LC_ALL, "rus");
 
-  int sum = 0;
-  for(int i = 0; i < 10; i++){
-    sum += 1;
-  }
+  int num1 = 0;
+  int num2 = 0;
+  int tmp = 0;
 
-  cout << "Hello World" << endl;
-  cout << "sum:" << sum << endl;
+  cout << "Enter two numbers : ";
+  cin >> num1 >> num2;
+
+  cout << "Before reverse : " << num1 << " - num1, " << num2 << " - num2" << endl;
+  tmp = num1;
+  num1 = num2;
+  num2 = tmp;
+  cout << "After reverse : " << num1 << " - num1, " << num2 << " - num2";
 
 
+  cout << endl;
   system("pause");
-
-}
+} 
