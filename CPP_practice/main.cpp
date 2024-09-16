@@ -1,22 +1,24 @@
 #include <iostream>
 
 
-
 using namespace std;
 main(){
   setlocale(LC_ALL, "rus");
 
-
-  int sqare = 3;  //3 X 3
+  //  /10  cut last num, %10 get last num
   int userInput;
+  int res;
 
   cout << "Enter number" << endl;
   cin >> userInput;
 
-  //int entire = userInput / sqare;
-  int remain = userInput % sqare;
+  //res = userInput % 10;
+  //res = res + (userInput = userInput / 10) % 10;
+  //res = res + (userInput = userInput / 10) % 10;
+  res = (userInput % 10) + ((userInput = userInput / 10) % 10) + ((userInput = userInput / 10) % 10);
 
-  cout << "You remain is ." << remain << endl;
+  cout << res;
+  cout << endl;
 
  
   cout << endl;
