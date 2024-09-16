@@ -6,20 +6,22 @@ using namespace std;
 main(){
   setlocale(LC_ALL, "rus");
 
-
   //int tmp = 0;
-  int gramm;
-  int kilogramm;
-  int diff = 1000;
+  int aSide;
+  int bSide;
+  int res;
+  int sqare = 5;
 
-  cout << "Enter mass in gramm" << endl;
-  cin >> gramm;
+  cout << "Enter a side" << endl;
+  cin >> aSide;
+  cout << "Enter a side" << endl;
+  cin >> aSide;
 
-  kilogramm = gramm / diff;
-  gramm = gramm -(kilogramm * 1000);
+  aSide = aSide / sqare;
+  bSide = bSide / sqare;
+  res = aSide * bSide;
 
-  cout << "Your weight = " << kilogramm << " kilogramm, and " << gramm << "g.";
-
+  cout << "You can cut " << res << " sqare";
 
 
   cout << endl;
