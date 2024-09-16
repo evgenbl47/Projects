@@ -15,7 +15,7 @@ main(){
   cout << "Enter a side" << endl;
   cin >> aSide;
   cout << "Enter a side" << endl;
-  cin >> aSide;
+  cin >> bSide;
 
   aSide = aSide / sqare;
   bSide = bSide / sqare;
