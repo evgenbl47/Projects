@@ -1,6 +1,6 @@
 #include <iostream>
 
-//gramm to kilogramm
+
 
 using namespace std;
 main(){
