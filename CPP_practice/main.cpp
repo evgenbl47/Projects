@@ -13,10 +13,10 @@ main(){
   cout << "Enter number" << endl;
   cin >> userInput;
 
-  int entire = userInput / sqare;
-  int remain = userInput - entire;
+  //int entire = userInput / sqare;
+  int remain = userInput % sqare;
 
-  cout << "You can get " << entire << "." << remain << endl;
+  cout << "You remain is ." << remain << endl;
 
  
   cout << endl;
