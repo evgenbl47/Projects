@@ -7,24 +7,18 @@ main(){
   setlocale(LC_ALL, "rus");
 
   //  /10  cut last num, /100 cut last two num ...exp, %10 get last num
-  int res;
+  int userInput;
 
-  int num1;
-  int num2;
-  int num3;
+  cout << "type seconds : ";
+  cin >> userInput;
 
-  cout << "type 1 number" << endl;
-  cin >> num1;
+  int sec;
+  int min;
 
-  cout << "type 2 number" << endl;
-  cin >> num2;
-
-  cout << "type 3 number" << endl;
-  cin >> num3;
-
-  res = num1 * 100 + num2 * 10 + num3;
-
-  cout << res;
+  min = userInput / 60 % 60;
+  sec = userInput % 60;
+ 
+  cout << "min:" << min << " sec :" << sec;
  
   cout << endl;
   system("pause");
