@@ -7,17 +7,24 @@ main(){
   setlocale(LC_ALL, "rus");
 
   //  /10  cut last num, /100 cut last two num ...exp, %10 get last num
-  int userInput;
   int res;
 
-  cout << "Enter 4 number" << endl;
-  cin >> userInput;
+  int num1;
+  int num2;
+  int num3;
 
-  res = (userInput % 10) + ((userInput / 10) % 10) + ((userInput / 100) % 10)+ ((userInput / 1000) % 10);
+  cout << "type 1 number" << endl;
+  cin >> num1;
+
+  cout << "type 2 number" << endl;
+  cin >> num2;
+
+  cout << "type 3 number" << endl;
+  cin >> num3;
+
+  res = num1 * 100 + num2 * 10 + num3;
 
   cout << res;
-  cout << endl;
-
  
   cout << endl;
   system("pause");
