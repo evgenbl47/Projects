@@ -13,17 +13,16 @@ using namespace std;
 main(){
   setlocale(LC_ALL, "rus");
 
-  int userNum;
+  int a = 6;
+  int b = 4;
 
-  cout << "type num: " ;
-  cin >> userNum;
 
-  if (userNum % 2 == 0 ){
-    cout << 1;
+  if (a % b == 0 ){
+    cout << 1 << endl;
+
   } else{
-    cout << 0;
+    cout << 0 << endl;
   }
-
 
   cout << endl;
   system("pause");
