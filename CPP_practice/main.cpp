@@ -13,12 +13,24 @@ using namespace std;
 main(){
   setlocale(LC_ALL, "rus");
 
-  5 == 2  0
-  3 != 4  1
-  7 != 7  0
-  6 >  6  0
-  8 <  4  0
-  5 <= 5  1
+  int x = 5;
+  int userNum;
 
+  cout << "type num: " ;
+  cin >> userNum;
+
+  if (userNum == 5){
+    cout << "num is 5";
+  }
+
+  if (userNum > 5){
+    cout << "num is more than 5";
+  }
+
+  if (userNum < 5){
+    cout << "num is less than 5";
+  }
+
+  cout << endl;
   system("pause");
 }
