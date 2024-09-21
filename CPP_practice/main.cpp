@@ -18,7 +18,7 @@ main(){
   cout << "type num: " ;
   cin >> userNum;
 
-  if (userNum > 0){
+  if (userNum % 2 == 0 ){
     cout << 1;
   } else{
     cout << 0;
