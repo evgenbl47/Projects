@@ -21,15 +21,10 @@ main(){
 
   if (userNum == 5){
     cout << "num is 5";
+  } else {
+    cout << "num is not 5";
   }
 
-  if (userNum > 5){
-    cout << "num is more than 5";
-  }
-
-  if (userNum < 5){
-    cout << "num is less than 5";
-  }
 
   cout << endl;
   system("pause");
